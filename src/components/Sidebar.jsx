@@ -28,7 +28,7 @@ const Sidebar = () => {
     return (
         <div className=' w-[20%]' style={{ borderRight: '1px solid #34333B' }}>
             <h1 className='text-3xl px-10 py-5 cursor-pointer'>LOGO</h1>
-            <nav className='flex flex-col gap-20 justify-between'>
+            <nav className='flex flex-col gap-8 justify-between'>
                 <ul className="space-y-5 mt-10">
                     {NavItems.map((item, index) => (
                         <NavLink key={index} to={item.path}
@@ -46,18 +46,18 @@ const Sidebar = () => {
                 <div>
                     <a
                         href="/feature"
-                        className="flex items-center gap-4 py-2 px-9 text-lg w-full mt-3  "
+                        className="flex items-center gap-4 py-2 px-9 text-[14px] w-full mt-3  "
                     >
-                        <span className="text-2xl"><BsBoxArrowUpRight size={20} /></span>
+                        <span className="text-sm"><BsBoxArrowUpRight  /></span>
                         <span>Request a Feature</span>
                     </a>
-                    <div className="w-[210px] h-[5px] bg-[#2F1450] ml-9 mt-7 rounded-2xl "></div>
-                    <h1 className="py-5 px-9">Used Storage: 0/65GB</h1>
+                    <div className="w-[210px] h-[4px] bg-[#2F1450] ml-9 mt-5 rounded-2xl "></div>
+                    <h1 className="py-3 px-9 text-[14px]">Used Storage: 0/65GB</h1>
                 </div>
                 <div>
                     <a
                         href="/logout"
-                        className="flex items-center gap-4 text-red-600 text-lg w-full mt-5 py-2 px-9"
+                        className="flex items-center gap-4 text-red-600 text-[14px] w-full mt-5 py-2 px-9"
                     >
                         <span className="text-2xl"><MdLogout size={23} /></span>
                         <span>Logout</span>

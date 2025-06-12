@@ -120,7 +120,7 @@ const Live = () => {
           </div>
         </div>
         <div>
-          <div className='relative w-full h-[750px] overflow-hidden overflow-y-scroll  px-6 mt-7 rounded-md scrollbar short-scrollbar   ' style={{ border: "1px solid #34333B" }}>
+          <div className='relative w-full h-[750px]  overflow-y-auto  px-6 mt-7 rounded-md scrollbar short-scrollbar   ' style={{ border: "1px solid #34333B" }}>
             <div className='flex items-center justify-between'>
               <h3 className='text-2xl font-semibold mb-3 mt-3' >Playlist</h3>
               <PiDotsThreeVertical className='text-2xl' />

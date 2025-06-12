@@ -7,7 +7,7 @@ const SearchBar = () => {
   const [showOptions, setShowOptions] = useState(false)
   return (
      <div className='flex justify-around items-center w-full gap-6'>
-      <div className='flex items-center py-3 px-4 w-[680px] ml-7 mt-10 mb-10 border border-[#34333B] rounded-lg'>
+      <div className='flex items-center py-3 px-4 w-[680px] ml-7 mt-6 mb-10 border border-[#34333B] rounded-lg'>
         <input
           type="text"
           placeholder='Search'

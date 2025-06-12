@@ -1,8 +1,13 @@
 import React from 'react'
+import { CiUser } from 'react-icons/ci'
 
 const Subscription = () => {
   return (
-    <div>Subscription</div>
+    <div className='m-5'>
+      <div style={{}}>
+
+      </div>
+    </div>
   )
 }
 
